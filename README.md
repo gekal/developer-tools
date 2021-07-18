@@ -8,6 +8,10 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 
+## AdoptOpenJDK
+
+[AdoptOpenJDK](https://adoptopenjdk.net/)をダウンロードしてインストールする。
+
 ## Maven
 
 1. `.\maven\setup.ps1` を実行して、環境を準備する。
