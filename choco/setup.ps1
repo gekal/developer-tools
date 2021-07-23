@@ -1,3 +1,5 @@
+Set-Location -Path $PSScriptRoot
+
 if (([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {  
     try {
         # choco command check
