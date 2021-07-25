@@ -1,6 +1,6 @@
 $version = "7.1.1"
 
-Write-Host "Mavenファイルをダウンロードする。"
+Write-Host "Gradleファイルをダウンロードする。"
 Write-Host "https://services.gradle.org/distributions/gradle-${version}-bin.zip"
 $client = new-object System.Net.WebClient
 $client.DownloadFile("https://services.gradle.org/distributions/gradle-${version}-bin.zip", ".\gradle-${version}-bin.zip")
