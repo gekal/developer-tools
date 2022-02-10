@@ -1,4 +1,4 @@
-$version = "3.8.1"
+$version = "3.8.4"
 
 Write-Host "Mavenファイルをダウンロードする。"
 Write-Host "https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/${version}/apache-maven-${version}-bin.zip"
