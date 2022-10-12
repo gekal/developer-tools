@@ -12,9 +12,6 @@ if (([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::
         Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     }
 
-    # download packages config
-    Invoke-WebRequest -Uri https://raw.githubusercontent.com/gekal/choco-package-config/master/packages.config -OutFile packages.config
-
     # install packages
     choco install .\packages.config -y
 }else {

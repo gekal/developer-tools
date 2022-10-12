@@ -3,5 +3,4 @@
 /java/*/jdk*
 /maven/apache-maven-*
 /gradle/gradle-*
-/choco/packages.config
 /jd-gui
