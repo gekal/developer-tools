@@ -3,4 +3,5 @@
 /java/*/jdk*
 /maven/apache-maven-*
 /gradle/gradle-*
+/nodejs/node-*
 /jd-gui
