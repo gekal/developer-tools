@@ -1,4 +1,4 @@
-$version = "7.3.3"
+$version = "7.5.1"
 
 Write-Host "Gradleファイルをダウンロードする。"
 Write-Host "https://services.gradle.org/distributions/gradle-${version}-bin.zip"
