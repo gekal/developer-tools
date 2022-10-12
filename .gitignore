@@ -1,5 +1,6 @@
 /a5m2/a5m2_*
 /A5M2cmd/A5M2cmd_*
+/java/*/jdk*
 /maven/apache-maven-*
 /gradle/gradle-*
 /choco/packages.config
