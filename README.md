@@ -14,9 +14,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
 1. `.\choco\setup.cmd` を実行する。
 
-## AdoptOpenJDK
+## Eclipse Temurin™
 
-[AdoptOpenJDK](https://adoptopenjdk.net/)をダウンロードしてインストールする。
+[Eclipse Temurin™](https://adoptium.net/temurin/releases/)をダウンロードしてインストールする。
 
 ## Maven
 
