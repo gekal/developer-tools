@@ -6,5 +6,6 @@
 /nodejs/node-*
 /jd-gui
 /php/php-*
+/php/composer/composer.phar
 /python/python-*
 /python/get-pip.py
