@@ -1,6 +1,7 @@
 /a5m2/a5m2_*
 /A5M2cmd/A5M2cmd_*
 /java/*/jdk*
+/java/*/graalvm*
 /maven/apache-maven-*
 /gradle/gradle-*
 /nodejs/node-*
