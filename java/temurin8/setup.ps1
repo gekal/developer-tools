@@ -4,7 +4,7 @@ $url = "https://github.com/adoptium/temurin8-binaries/releases/download/jdk${ver
 Write-Host "jdk version: ${version}"
 Write-Host "url: ${url}"
 
-If (!(test-path ".\jdk-${version}")) {
+If (!(test-path ".\jdk${version}")) {
     $client = new-object System.Net.WebClient
     $client.DownloadFile("${url}", ".\OpenJDK8U-jdk_x64_windows_hotspot_$($version.Replace('-', '')).zip")
 
