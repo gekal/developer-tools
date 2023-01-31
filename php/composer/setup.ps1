@@ -7,5 +7,7 @@ function init($version) {
         $client.DownloadFile("https://getcomposer.org/download/${version}/composer.phar", ".\composer.phar")
     }
 
+    Set-Content -Path '.\composer.bat' -Value '@php "%~dp0composer.phar" %*'
+
     Write-Host ""
 }
