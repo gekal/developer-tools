@@ -9,5 +9,10 @@ function init($version) {
 
     Set-Content -Path '.\composer.bat' -Value '@php "%~dp0composer.phar" %*'
 
-    Write-Host ""
+    Write-Host "ŠÂ‹«•Ï”‚ğİ’è‚·‚é"
+    $COMPOSER_HOME = Resolve-Path "."
+    Write-Host "COMPOSER_HOME = $COMPOSER_HOME"
+    [Environment]::SetEnvironmentVariable("COMPOSER_HOME", $COMPOSER_HOME, "User")
+
+    Write-Host "Path‚É[%COMPOSER_HOME%]‚ğ’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢B"
 }
