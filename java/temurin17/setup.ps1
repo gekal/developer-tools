@@ -1,4 +1,4 @@
-$version = "17.0.4.1+1"
+$version = "17.0.6+10"
 $url = "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-${version}/OpenJDK17U-jdk_x64_windows_hotspot_$($version.Replace('+', '_')).zip"
 
 Write-Host "jdk version: ${version}"
