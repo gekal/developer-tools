@@ -11,3 +11,5 @@
 /python/python-*
 /python/get-pip.py
 /go/go*
+/Android/Sdk
+/Android/*.zip

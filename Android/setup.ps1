@@ -1,3 +1,7 @@
+if(!(Test-Path -Path ".\Sdk" )) {
+    New-Item -ItemType Directory -Path ".\Sdk"
+}
+
 Write-Host "ŠÂ‹«•Ï”‚ğİ’è‚·‚é"
 $ANDROID_HOME = Resolve-Path ".\Sdk"
 Write-Host "ANDROID_HOME = $ANDROID_HOME"
