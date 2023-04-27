@@ -13,3 +13,5 @@
 /go/go*
 /Android/Sdk
 /Android/*.zip
+/mysql/*/mysql-*-winx64
+/mysql/*/*.zip
