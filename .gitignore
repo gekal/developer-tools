@@ -15,3 +15,5 @@
 /Android/*.zip
 /mysql/*/mysql-*-winx64
 /mysql/*/*.zip
+/Apache/Apache24
+/Apache/*.html
