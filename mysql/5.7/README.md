@@ -4,8 +4,8 @@
 
 ```ini
 [mysqld]
-basedir=C:\\tools\\mysql\\8.0\\mysql-8.0.33-winx64\\
-datadir=C:\\tools\\mysql\\8.0\\mysql-8.0.33-winx64\\data
+basedir=C:\\tools\\mysql\\5.7\\mysql-5.7.41-winx64\\
+datadir=C:\\tools\\mysql\\5.7\\mysql-5.7.41-winx64\\data
 
 [client]
 port=3306
@@ -16,26 +16,26 @@ port=3306
 
 ## コマンド
 
-> `8.0.33` 前提のコマンド
+> `5.7.41` 前提のコマンド
 
 1. データベースの初期化
 
     ```powershell
     # --initialize-insecure オプションは本番向けではありません。
-    C:\tools\mysql\8.0\mysql-8.0.33-winx64\bin\mysqld --initialize-insecure --user=mysql
+    C:\tools\mysql\5.7\mysql-5.7.41-winx64\bin\mysqld --initialize-insecure --user=mysql
     ```
 
 2. プロセスの起動
 
     ```powershell
-    C:\tools\mysql\8.0\mysql-8.0.33-winx64\bin\mysqld.exe --console
+    C:\tools\mysql\5.7\mysql-5.7.41-winx64\bin\mysqld.exe --console
     ```
 
 3. コマンドプロンプトの接続
 
     ```powershell
     # パスワードなしでログインします。
-    C:\tools\mysql\8.0\mysql-8.0.33-winx64\bin\mysql.exe -u root --skip-password
+    C:\tools\mysql\5.7\mysql-5.7.41-winx64\bin\mysql -u root --skip-password
     ```
 
 ## Windowsサービス関連
@@ -43,14 +43,14 @@ port=3306
 1. 登録
 
     ```powershell
-    C:\tools\mysql\8.0\mysql-8.0.33-winx64\bin\mysqld.exe --install MySQL
+    C:\tools\mysql\5.7\mysql-5.7.41-winx64\bin\mysqld.exe --install MySQL
     ```
 
 2. 削除
 
     ```powershell
     # cmd: SC DELETE MySQL
-    C:\tools\mysql\8.0\mysql-8.0.33-winx64\bin\mysqld.exe --remove
+    C:\tools\mysql\5.7\mysql-5.7.41-winx64\bin\mysqld.exe --remove
     ```
 
 3. 開始
@@ -82,4 +82,3 @@ port=3306
 ## 参照
 
 1. [Windows10にzipのMySQLをインストールして起動する方法](https://qiita.com/KOJI-YAMAMOTO/items/02af20e7b5cd27932a27)
-2. [Windows のサービスとして MySQL を起動する](https://dev.mysql.com/doc/refman/8.0/ja/windows-start-service.html)
