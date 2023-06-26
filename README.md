@@ -8,6 +8,20 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 
+## Powershell制ツール
+
+環境変数に`C:\tools\bin`を追加します。
+
+### Base64
+
+```powershell
+# bin\base64.ps1
+$ base64 test
+dGVzdA==
+$ base64 -D dGVzdA==
+test
+```
+
 ## アプリのインストール(chocolate package manager)
 
 > 参照：<https://github.com/gekal/choco-package-config>
