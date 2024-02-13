@@ -1,10 +1,10 @@
-$version = "2.17.4"
+$version = "2.19.0"
 
 Write-Host "A5:SQL Mk-2ファイルをダウンロードする。"
-Write-Host "https://ftp.vector.co.jp/75/42/2526/a5m2_${version}_x64.zip"
+Write-Host "https://ftp.vector.co.jp/76/65/2526/a5m2_${version}_x64.zip"
 
 $client = new-object System.Net.WebClient
-$client.DownloadFile("https://ftp.vector.co.jp/75/42/2526/a5m2_${version}_x64.zip", ".\a5m2_${version}_x64.zip")
+$client.DownloadFile("https://ftp.vector.co.jp/76/65/2526/a5m2_${version}_x64.zip", ".\a5m2_${version}_x64.zip")
 
 Write-Host "ZIPファイルを解凍して、削除する。"
 Write-Host ".\a5m2_${version}_x64.zip >>>> ."
